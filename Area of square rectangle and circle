@@ -1,0 +1,10 @@
+import math
+a=int(input())
+b=int(input())
+c=int(input())
+d=float(input())
+print(a*a)
+print(b*c)
+e = 3.14 * d * d
+g=math.floor(e* 100) / 100
+print(f"{g:.2f}")
