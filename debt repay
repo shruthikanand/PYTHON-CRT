@@ -1,0 +1,12 @@
+import math
+p=int(input())
+r=int(input())
+t=int(input())
+interest=(p*t*r)/100
+print(f"{interest:.2f}")
+amt = interest + p
+print(f"{amt:.2f}")
+dis = (interest * 2) / 100
+print(f"{dis:.2f}")
+settle = amt - dis
+print(f"{settle:.2f}")
