@@ -1,0 +1,6 @@
+l=int(input())
+b=int(input())
+c=2*(l+b)
+d=l*b
+print(c)
+print(d)
