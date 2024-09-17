@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+longben=(a*b)//100
+remaining=a-longben
+blackbeard=(c*remaining)//100
+r3=(a-(longben+blackbeard))//3
+print(longben)
+print(blackbeard)
+print(r3)
