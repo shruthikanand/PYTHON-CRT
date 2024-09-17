@@ -1,0 +1,7 @@
+import math
+a=float(input())
+higestroundoff = math.ceil(a)
+lowestroundoff = math.floor(a)
+print(f"{lowestroundoff}")
+print(f"{higestroundoff:.1f}")
+print(f"{lowestroundoff:.1f}")
